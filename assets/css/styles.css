@@ -18,7 +18,7 @@
       margin-bottom: 30px;
   }
   .jumbotron {
-      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url(assets/img/landing.png);
+      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("../img/landing.png");
       background-size: 100% 100%;
       background-color: #f4511e;
       padding: 450px 15%;
