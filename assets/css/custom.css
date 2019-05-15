@@ -76,4 +76,6 @@
     background-color: #fff !important;
 }
 
-  
+.navbar-collapse::after {
+  background-color: #073138 !important;
+}
