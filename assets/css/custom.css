@@ -1,0 +1,79 @@
+.myavatar {
+  border-radius: 50%;
+  /*height: 400PX;*/
+  width: 35%;
+}
+
+.myul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.mylists {
+  font: 200 15px/1.5 Helvetica, Verdana, sans-serif;
+  border-bottom: 1px solid #ccc;
+}
+
+.mylists:last-child {
+  border: none;
+}
+
+.mylists a {
+  text-decoration: none;
+  color: #000;
+  /*display: block;*/
+  width: 200px;
+
+  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+  transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+
+.mylists a:hover {
+  font-size: 20px;
+  background: #f6f6f6;
+}
+
+.card .card-header-custom,
+.card.bg-rose,
+.card.card-rotate.bg-rose .front,
+.card.card-rotate.bg-rose .back {
+  background: linear-gradient(60deg, #073138, #073138);
+}
+
+
+.projects_p {
+  font-size: 14px;
+  line-height: 1.5;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* Custom color style for Nav bar*/
+.bg-customColor {
+  color: #fff;
+  background-color: #073138 !important;
+  box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14),
+    0 7px 12px -5px rgba(33, 33, 33, 0.46);
+}
+
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+}
+
+  
